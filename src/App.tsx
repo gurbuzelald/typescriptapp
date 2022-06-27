@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className='bg-green'>
-      Hello World
-    </div>
+    <h1 className="text-3xl font-bold underline text-red-600 bg-green">
+      Simple React Typescript Tailwind Sample
+    </h1>
   );
 }
 
